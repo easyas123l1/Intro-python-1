@@ -31,9 +31,8 @@ print(y)
 a = ["foo", "bar", "baz"]
 
 y = []
-for word in a:
-  y.append(word.upper())
 
+y = [x.upper() for x in a]
 print(y)
 
 # Use a list comprehension to create a list containing only the _even_ elements
